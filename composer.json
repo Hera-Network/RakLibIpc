@@ -6,9 +6,15 @@
 	"require": {
 		"php": "^8.0",
 		"php-64bit": "*",
-		"pocketmine/binaryutils": "^0.2.0",
-		"pocketmine/raklib": "^0.15.0 || ^1.0.0"
+		"ext-binary": "^1.0.3",
+		"pocketmine/raklib": "dev-master"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com//hera-network/raklib"
+		}
+	],
 	"require-dev": {
 		"phpstan/phpstan": "2.1.0",
 		"phpstan/phpstan-strict-rules": "^2.0.0"
